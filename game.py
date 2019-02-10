@@ -30,7 +30,7 @@ class EllipseTrack:
 class CarDisplay(pygame.sprite.Sprite):
 	def __init__(self, carobj):
 		pygame.sprite.Sprite.__init__(self)
-		img = pygame.image.load("./car_red_sprite.png")
+		img = pygame.image.load("./assets/car_red_sprite.png")
 		self.image = pygame.transform.scale(img, (24,12))
 		self._image = self.image
 		self.rect = self.image.get_rect()
